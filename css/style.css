@@ -1,62 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    background-color: #fff !important;
 
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Sora', sans-serif;
-    line-height: 180%;
-    color: #666;
-    text-align: center;
 }
 
-.heading {
-    position: absolute;
-    text-align: center;
-    color: #fff;
-    font-size: 400%;
-    top: 38%;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    text-shadow: 0 0 10px #000;
+.padding{
+    padding-bottom: 280px;
 }
-.heading-sm {
-    position: absolute;
-    top: 45%;
-    width: 100%;
-    color: #fff;
-    font-size: 250%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: 0 0 10px #000;
+
+.imgContainer{
+    float:left;
+    padding-right: 80px;
+    padding-bottom: 20px;
 }
-.two-col {
+
+.img-border {
+    border: 4px solid #294254;
+    box-shadow: 10px 10px #00000080;
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+.border-bottom{
+    color: black;
+}
+
+.btn-primary
+{
+    background-color: #294354 !important;
+}
+
+.navbar {
+    font-family: "LEMON MILK Medium", monospace;
+    font-size: 42px;
+    text-shadow: 1px 3px #00000080;
+}
+
+.carousel .carousel-item {
+    height: 575px;
+    z-index: 1;
+}
+
+.carousel-item img {
+    display: block;
+    height: 575px;
+    line-height: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+    font-size: 24px;
+    font-family: "LEMON MILK Medium", monospace;
+    z-index: 20;
+    color: #e1ad01;
+}
+
+.h1-carousel{
+    color: #e1ad01;
+    font-size: 64px !important;
+    text-shadow: 1px 4px 0px #00000080;
+}
+
+h1
+{
+font-family: "LEMON MILK Medium", monospace !important;
+    color: #e1ad01;
+    font-size: 64px !important;
+}
+
+.h1-medium
+{
+    font-family: "LEMON MILK Medium", monospace !important;
+    color: #e1ad01;
+    font-size: 52px !important;
+    text-shadow: 1px 4px 0px #00000080;
+}
+
+h2
+{
+    font-family: "LEMON MILK", monospace;
+    font-size: 64px !important;
+    color: #294254;
+}
+
+.h2-blue
+{
+    font-family: "LEMON MILK", monospace;
+    font-size: 72px !important;
+    color: #e1ad01;
+}
+
+.bg-yellow{
+    background-color: #e1ad01 !important;
+}
+
+.bg-blue{
+    background-color: #294254 !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.p1-carousel
+{
+    font-family: "LEMON MILK", monospace;
+    font-size: 20px !important;
+    color: #fff;
+    text-shadow: 1px 2px 0px #00000080;
+}
+
+.p1
+{
+    font-family: "LEMON MILK", monospace;
+    font-size: 16px !important;
+    color: #fff;
+}
+
+p1{
+    font-family: "LEMON MILK", monospace;
+    font-size: 12px !important;
+    color: #3A3B3C;
+}
+
+.p2{
+    font-family: "LEMON MILK", monospace;
+    font-size: 15px !important;
+    color: #fff;
+}
+
+.p3{
+    font-family: "LEMON MILK", monospace;
+    font-size: 18px !important;
+    color: #fff;
+}
+
+.btn{
+    font-family: "LEMON MILK", monospace !important;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
     float: left;
-    width: 42%;
-    padding: 0 4%;
-    text-align: left;
-}
-section {
-    overflow: auto;
-    padding: 50px 80px;
-}
-.dark {
-    overflow: auto;
-    padding: 50px 80px;
-    background-color: #323232;
-    color: #f2f2f2;
+    width: 33.33%;
+    padding: 5px;
 }
 
-@media (max-width: 768px) {
-    .heading {
-        font-size: 250%;
-    }
-    .heading-sm {
-        font-size: 180%;
-    }
-    .two-col {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
 }
+
+.carousel{border:8px solid #294254}
